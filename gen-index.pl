@@ -287,6 +287,14 @@ my @objects = (
 		author => 'Pascal Neis',
 	},
 
+	'Мэшапы на основе OSM',
+	{
+		name => 'Social Netowrks in OpenLayers',
+		url => 'http://social.osm4people.org/?zoom=ZOOM&lat=LAT&lon=LON&layers=0000000FFBTFFFFFTT',
+		image => 'social.png',
+		descr => 'Различные социальные сервисы (<a href="http://panoramio.com">Panoramio</a>, <a href="http://flickr.com">Flickr</a>, <a href="http://last.fm">Last.fm</a>, <a href="http://twitter.com">Twitter</a> и другие) на карте OSM.',
+	},
+
 	'Сравнение карт',
 	{
 		name => 'Geofabrik Tools/Map Compare',
