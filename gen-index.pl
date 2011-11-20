@@ -160,6 +160,14 @@ my @objects = (
 		coverage => 'Вся планета',
 	},
 
+	'Мэшапы на основе OSM',
+	{
+		name => 'Social Networks in OpenLayers',
+		url => 'http://social.osm4people.org/?zoom=ZOOM&lat=LAT&lon=LON&layers=0000000FFBTFFFFFTT',
+		image => 'social.png',
+		descr => 'Различные социальные сервисы (<a href="http://panoramio.com">Panoramio</a>, <a href="http://flickr.com">Flickr</a>, <a href="http://last.fm">Last.fm</a>, <a href="http://twitter.com">Twitter</a> и другие) на карте OSM.',
+	},
+
 	'Инструменты контроля качества и рендеры специфичной информации',
 	{
 		name => 'OpenStreetBugs',
@@ -285,14 +293,6 @@ my @objects = (
 		descr => '"Тепловая карта" правок пользователя',
 		coverage => 'Вся планета',
 		author => 'Pascal Neis',
-	},
-
-	'Мэшапы на основе OSM',
-	{
-		name => 'Social Networks in OpenLayers',
-		url => 'http://social.osm4people.org/?zoom=ZOOM&lat=LAT&lon=LON&layers=0000000FFBTFFFFFTT',
-		image => 'social.png',
-		descr => 'Различные социальные сервисы (<a href="http://panoramio.com">Panoramio</a>, <a href="http://flickr.com">Flickr</a>, <a href="http://last.fm">Last.fm</a>, <a href="http://twitter.com">Twitter</a> и другие) на карте OSM.',
 	},
 
 	'Сравнение карт',
