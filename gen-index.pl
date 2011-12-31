@@ -263,6 +263,14 @@ my @objects = (
 		descr => 'Карта авторов, согласившихся с условиями новой лицензии OpenStreetMap - ODbL.',
 	},
 	{
+		name => 'CLEANMAP',
+		url => 'http://cleanmap.poole.ch/?zoom=ZOOM&lat=LAT&lon=LON',
+		image => 'cleanmap.png',
+		descr => 'Примерная визуализация данных, лицензированных под ODbL.',
+		author => '<a href="http://www.openstreetmap.org/user/SimonPoole">Simon Poole</a>',
+		coverage => 'Европа',
+	},
+	{
 		name => 'Toolserver/lighting',
 		url => 'http://toolserver.org/~osm/styles/?zoom=ZOOM&lat=LAT&lon=LON&layers=B000F0TF0000F0FF00',
 		image => 'lit.png',
