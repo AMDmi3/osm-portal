@@ -218,14 +218,14 @@ my @objects = (
 		author => '<a href="http://www.openstreetmap.org/user/Aleksandr%20Dezhin">Aleksandr Dezhin</a>',
 		coverage => 'Россия',
 	},
-	{
-		name => 'YAV/ОКАТО',
-		url => 'http://dezhin.gis-lab.info/yav/?layers=BTFFFFFF&zoom=ZOOM&lat=LAT&lon=LON',
-		image => 'yav_okato.png',
-		descr => 'Валидатор населённых пунктов.',
-		author => '<a href="http://www.openstreetmap.org/user/Aleksandr%20Dezhin">Aleksandr Dezhin</a>',
-		coverage => 'Россия',
-	},
+#	{ # Dezhin: Да пока я ту штуку которая была с картой отключил, все равно все пользуются текстовым вариантом.
+#		name => 'YAV/ОКАТО',
+#		url => 'http://dezhin.gis-lab.info/yav/?layers=BTFFFFFF&zoom=ZOOM&lat=LAT&lon=LON',
+#		image => 'yav_okato.png',
+#		descr => 'Валидатор населённых пунктов.',
+#		author => '<a href="http://www.openstreetmap.org/user/Aleksandr%20Dezhin">Aleksandr Dezhin</a>',
+#		coverage => 'Россия',
+#	},
 	{
 		name => 'YAV/Ошибки границ',
 		url => 'http://yav.gis-lab.info/boundaries/map?zoom=ZOOM&lat=LAT&lon=LON',
