@@ -27,14 +27,14 @@ my @objects = (
 		refresh => 'Минуты',
 		coverage => 'Вся планета',
 	},
-	{
-		name => 'Osmarender',
-		url => 'http://www.openstreetmap.org/?lat=LAT&lon=LON&zoom=ZOOM&layers=O',
-		image => 'osmarender.png',
-		descr => 'Распределенный рендер, использующий ресурсы пользователей для отрисовки карты (проект <a href="http://wiki.openstreetmap.org/wiki/RU:Tiles@home">Tiles@Home</a>).',
-		refresh => 'Несколько часов',
-		coverage => 'Вся планета',
-	},
+#	{
+#		name => 'Osmarender',
+#		url => 'http://www.openstreetmap.org/?lat=LAT&lon=LON&zoom=ZOOM&layers=O',
+#		image => 'osmarender.png',
+#		descr => 'Распределенный рендер, использующий ресурсы пользователей для отрисовки карты (проект <a href="http://wiki.openstreetmap.org/wiki/RU:Tiles@home">Tiles@Home</a>).',
+#		refresh => 'Несколько часов',
+#		coverage => 'Вся планета',
+#	},
 	{
 		name => 'CycleMap',
 		url => 'http://www.openstreetmap.org/?lat=LAT&lon=LON&zoom=ZOOM&layers=C',
