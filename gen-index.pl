@@ -159,6 +159,13 @@ my @objects = (
 		descr => 'Прокладка маршрутов по карте OSM.',
 		coverage => 'Вся планета',
 	},
+	{
+		name => 'OSRM',
+		url => 'http://map.project-osrm.org/?z=ZOOM&center=LAT,LON',
+		image => 'osrm.png',
+		descr => 'Быстрая прокладка маршрутов по карте OSM.',
+		coverage => 'Вся планета',
+	},
 
 	'Мэшапы на основе OSM',
 	{
