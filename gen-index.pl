@@ -290,6 +290,15 @@ my @objects = (
 		coverage => 'Вся планета',
 		author => 'Pascal Neis',
 	},
+	{
+		name => 'lowzoom',
+		url => 'http://lowzoom.osm.rambler.ru/',
+		image => 'lowzoom.png',
+		descr => 'Обзорная карта, сгенерированная из тайлов Mapnik 9 зума при помощи <a href="http://wiki.openstreetmap.org/wiki/Tiletool">TileTool</a>.',
+		coverage => 'Вся планета',
+		author => '<a href="http://www.openstreetmap.org/user/AMDmi3">AMDmi3</a>',
+		refresh => 'Нерегулярно',
+	},
 
 	'Перелицензирование',
 	{
