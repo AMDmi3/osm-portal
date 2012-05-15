@@ -45,15 +45,15 @@ my @objects = (
 	},
 
 	'Сторонние рендеры',
-#	{
-#		name => 'MapSurfer.NET/Road',
-#		url => 'http://www.mapsurfer.net/?layers=B0T&zoom=ZOOM&lat=LAT&lon=LON',
-#		image => 'mapsurfer.png',
-#		descr => 'Сторонний рендер с псевдотрехмерными зданиями, написанный на C#.',
-#		refresh => 'Давно не обновлялся',
-#		authors => 'Maxim Rylov and Vitaly Chezganov',
-#		coverage => 'Вся планета',
-#	},
+	{
+		name => 'MapSurfer.NET/Road',
+		url => 'http://www.openmapsurfer.uni-hd.de/?layers=B0000&zoom=ZOOM&lat=LAT&lon=LON',
+		image => 'mapsurfer.png',
+		descr => 'Сторонний рендер с псевдотрехмерными зданиями, написанный на C#.',
+		refresh => 'Регулярно (но низкие зумы редко)',
+		authors => 'Maxim Rylov and Vitaly Chezganov',
+		coverage => 'Вся планета',
+	},
 #	{
 #		name => 'MapSurfer.NET/Topographic',
 #		url => 'http://www.mapsurfer.net/?layers=0BT&zoom=ZOOM&lat=LAT&lon=LON',
@@ -63,15 +63,14 @@ my @objects = (
 #		authors => 'Maxim Rylov and Vitaly Chezganov',
 #		coverage => 'Вся планета',
 #	},
-#	{
-#		name => 'MapSurfer.NET/Hybrid',
-#		url => 'http://latlon.org/maxi?zoom=ZOOM&lat=LAT&lon=LON&layers=B0000000000000FFT',
-#		image => 'mapsurfer_hybrid.png',
-#		descr => 'Гибридный слой для использования поверх сторонних спутниковых снимков и карты',
-#		refresh => '15 минут',
-#		authors => 'Maxim Rylov and Vitaly Chezganov',
-#		coverage => 'Вся планета',
-#	},
+	{
+		name => 'MapSurfer.NET/Hybrid',
+		url => 'http://www.openstreetmap.ru/#layer=BY&zoom=ZOOM&lat=LAT&lon=LON',
+		image => 'mapsurfer_hybrid.png',
+		descr => 'Полупрозрачный слой с подписями для использования поверх спутниковых снимков и карт',
+		authors => 'Maxim Rylov and Vitaly Chezganov',
+		coverage => 'Вся планета',
+	},
 	{
 		name => 'OpenStreetMap.by',
 		url => 'http://openstreetmap.by/?lat=LAT&lon=LON&zoom=ZOOM',
