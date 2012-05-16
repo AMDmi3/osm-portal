@@ -166,12 +166,18 @@ my @objects = (
 		coverage => 'Вся планета',
 	},
 
-	'Мэшапы на основе OSM',
+	'Мэшапы и рендеринг сторонней информации на основе OSM',
 	{
 		name => 'Social Networks in OpenLayers',
 		url => 'http://social.osm4people.org/?zoom=ZOOM&lat=LAT&lon=LON&layers=0000000FFBTFFFFFTT',
 		image => 'social.png',
 		descr => 'Различные социальные сервисы (<a href="http://panoramio.com">Panoramio</a>, <a href="http://flickr.com">Flickr</a>, <a href="http://last.fm">Last.fm</a>, <a href="http://twitter.com">Twitter</a> и другие) на карте OSM.',
+	},
+	{
+		name => 'OpenSeaMap/Weather',
+		url => 'http://map.openseamap.org/map/weather.php?zoom=ZOOM&lat=LAT.65945&lon=LON',
+		image => 'openseamap_weather.png',
+		descr => 'Погодная карта',
 	},
 
 	'Инструменты контроля качества',
