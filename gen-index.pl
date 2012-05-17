@@ -179,6 +179,12 @@ my @objects = (
 		image => 'openseamap_weather.png',
 		descr => 'Погодная карта',
 	},
+	{
+		name => 'OpenWeatherMap',
+		url => 'http://openweathermap.org/?zoom=ZOOM&lat=LAT&lon=LON', # XXX: lat/lon is not in degrees! (7526976.40009, 4273570.40519)
+		image => 'openweathermap.png',
+		descr => 'Погодная карта',
+	},
 
 	'Инструменты контроля качества',
 	{
