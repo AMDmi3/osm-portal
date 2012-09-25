@@ -326,21 +326,21 @@ my @objects = (
 		refresh => 'Нерегулярно',
 	},
 
-	'Перелицензирование',
-	{
-		name => 'ODbL Coverage',
-		url => 'http://osm.informatik.uni-leipzig.de/map/?zoom=ZOOM&lat=LAT&lon=LON',
-		image => 'odbl.png',
-		descr => 'Карта авторов, согласившихся с условиями новой лицензии OpenStreetMap - ODbL.',
-	},
-	{
-		name => 'CLEANMAP',
-		url => 'http://cleanmap.poole.ch/?zoom=ZOOM&lat=LAT&lon=LON',
-		image => 'cleanmap.png',
-		descr => 'Примерная визуализация данных, лицензированных под ODbL.',
-		author => '<a href="http://www.openstreetmap.org/user/SimonPoole">Simon Poole</a>',
-		coverage => 'Европа',
-	},
+#	'Перелицензирование',
+#	{
+#		name => 'ODbL Coverage',
+#		url => 'http://osm.informatik.uni-leipzig.de/map/?zoom=ZOOM&lat=LAT&lon=LON',
+#		image => 'odbl.png',
+#		descr => 'Карта авторов, согласившихся с условиями новой лицензии OpenStreetMap - ODbL.',
+#	},
+#	{
+#		name => 'CLEANMAP',
+#		url => 'http://cleanmap.poole.ch/?zoom=ZOOM&lat=LAT&lon=LON',
+#		image => 'cleanmap.png',
+#		descr => 'Примерная визуализация данных, лицензированных под ODbL.',
+#		author => '<a href="http://www.openstreetmap.org/user/SimonPoole">Simon Poole</a>',
+#		coverage => 'Европа',
+#	},
 
 	'Сравнение карт',
 	{
