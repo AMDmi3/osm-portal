@@ -201,7 +201,15 @@ my @objects = (
 		image => 'keepright.png',
 		descr => 'Инструмент, помогающий выявить огромное количество топологических ошибок на карте, включая неправильно отмеченные объекты, отсутствие необходимых тэгов, несоединённые и самопересекающиеся дороги и т.д.',
 		coverage => 'Вся планета',
-		# refresh => TODO: проверить
+		refresh => 'Примерно раз в неделю',
+	},
+	{
+		name => 'WHO DID IT?!',
+		url => 'http://zverik.osm.rambler.ru/whodidit/report_map.php?zoom=ZOOM&lat=LAT&lon=LON',
+		image => 'whodidit.png',
+		descr => 'Мониторинг правок пользователей на выбранной территории.',
+		coverage => 'Вся планета',
+		refresh => 'Ежечасно',
 	},
 	{
 		name => 'Geofabrik Tools/OSM Inspector', # TODO: нужно разбить на инструменты; для разных инструментов разный coverage
