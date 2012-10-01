@@ -205,7 +205,7 @@ my @objects = (
 	},
 	{
 		name => 'WHO DID IT?!',
-		url => 'http://zverik.osm.rambler.ru/whodidit/report_map.php?zoom=ZOOM&lat=LAT&lon=LON',
+		url => 'http://zverik.osm.rambler.ru/whodidit/?zoom=ZOOM&lat=LAT&lon=LON',
 		image => 'whodidit.png',
 		descr => 'Мониторинг правок пользователей на выбранной территории.',
 		coverage => 'Вся планета',
