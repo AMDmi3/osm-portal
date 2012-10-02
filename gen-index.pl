@@ -145,6 +145,14 @@ my @objects = (
 
 	'Прокладка маршрутов',
 	{
+		name => 'OSRM',
+		url => 'http://map.project-osrm.org/?z=ZOOM&center=LAT,LON',
+		image => 'osrm.png',
+		descr => 'Быстрая прокладка маршрутов по карте OSM.',
+		coverage => 'Вся планета',
+		refresh => 'Приблизительно раз в неделю (актуальность данных можно посмотреть нажав на кнопку с шестерёнкой)',
+	},
+	{
 		name => 'YourNavigation',
 		url => 'http://www.yournavigation.org/',
 		image => 'routing.png',
@@ -156,13 +164,6 @@ my @objects = (
 		url => 'http://openrouteservice.org/?zoom=ZOOM&lat=LAT&lon=LON',
 		image => 'openrouteservice.png',
 		descr => 'Прокладка маршрутов по карте OSM.',
-		coverage => 'Вся планета',
-	},
-	{
-		name => 'OSRM',
-		url => 'http://map.project-osrm.org/?z=ZOOM&center=LAT,LON',
-		image => 'osrm.png',
-		descr => 'Быстрая прокладка маршрутов по карте OSM.',
 		coverage => 'Вся планета',
 	},
 
