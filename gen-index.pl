@@ -285,13 +285,13 @@ my @objects = (
 		url => 'http://osm.virtuelle-loipe.de/restrictions/?zoom=ZOOM&lat=LAT&lon=LON',
 		image => 'restrictions.png',
 	},
-	{
-		name => 'Toolserver/lighting',
-		url => 'http://toolserver.org/~osm/styles/?zoom=ZOOM&lat=LAT&lon=LON&layers=B000F0TF0000F0FF00',
-		image => 'lit.png',
-		descr => 'Визуализация ночного освещения (тэг lit=*).',
-		refresh => 'От нескольких часов (13-14 zoom) до нескольких дней',
-	},
+#	{
+#		name => 'Toolserver/lighting',
+#		url => 'http://toolserver.org/~osm/styles/?zoom=ZOOM&lat=LAT&lon=LON&layers=B000F0TF0000F0FF00',
+#		image => 'lit.png',
+#		descr => 'Визуализация ночного освещения (тэг lit=*).',
+#		refresh => 'От нескольких часов (13-14 zoom) до нескольких дней',
+#	},
 	{
 		name => 'Toolserver/locales',
 		url => 'http://toolserver.org/~osm/locale/?zoom=ZOOM&lat=LAT&lon=LON',
