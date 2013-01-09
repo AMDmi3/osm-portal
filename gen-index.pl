@@ -237,14 +237,14 @@ my @objects = (
 #		refresh => 'Практически в реальном времени',
 #		coverage => 'Вся планета',
 #	},
-	{
-		name => 'YAV/Водные объекты',
-		url => 'http://yav.gis-lab.info/rsa/map?zoom=ZOOM&lat=LAT&lon=LON',
-		image => 'yav_water.png',
-		descr => 'Валидатор водных объектов. Позволяет находить такие ошибки как незаконченные реки (которые никуда не впадают) и неправильное направление рек.',
-		author => '<a href="http://www.openstreetmap.org/user/Aleksandr%20Dezhin">Aleksandr Dezhin</a>',
-		coverage => 'Россия',
-	},
+#	{
+#		name => 'YAV/Водные объекты',
+#		url => 'http://yav.gis-lab.info/rsa/map?zoom=ZOOM&lat=LAT&lon=LON',
+#		image => 'yav_water.png',
+#		descr => 'Валидатор водных объектов. Позволяет находить такие ошибки как незаконченные реки (которые никуда не впадают) и неправильное направление рек.',
+#		author => '<a href="http://www.openstreetmap.org/user/Aleksandr%20Dezhin">Aleksandr Dezhin</a>',
+#		coverage => 'Россия',
+#	},
 #	{ # Dezhin: Да пока я ту штуку которая была с картой отключил, все равно все пользуются текстовым вариантом.
 #		name => 'YAV/ОКАТО',
 #		url => 'http://dezhin.gis-lab.info/yav/?layers=BTFFFFFF&zoom=ZOOM&lat=LAT&lon=LON',
@@ -253,14 +253,14 @@ my @objects = (
 #		author => '<a href="http://www.openstreetmap.org/user/Aleksandr%20Dezhin">Aleksandr Dezhin</a>',
 #		coverage => 'Россия',
 #	},
-	{
-		name => 'YAV/Ошибки границ',
-		url => 'http://yav.gis-lab.info/boundaries/map?zoom=ZOOM&lat=LAT&lon=LON',
-		image => 'yav_boundary.png',
-		descr => 'Валидатор границ.',
-		author => '<a href="http://www.openstreetmap.org/user/Aleksandr%20Dezhin">Aleksandr Dezhin</a>',
-		coverage => 'Россия',
-	},
+#	{
+#		name => 'YAV/Ошибки границ',
+#		url => 'http://yav.gis-lab.info/boundaries/map?zoom=ZOOM&lat=LAT&lon=LON',
+#		image => 'yav_boundary.png',
+#		descr => 'Валидатор границ.',
+#		author => '<a href="http://www.openstreetmap.org/user/Aleksandr%20Dezhin">Aleksandr Dezhin</a>',
+#		coverage => 'Россия',
+#	},
 
 	'Рендеры специфичной информации',
 	{
