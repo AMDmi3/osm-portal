@@ -63,14 +63,14 @@ my @objects = (
 #		authors => 'Maxim Rylov and Vitaly Chezganov',
 #		coverage => 'Вся планета',
 #	},
-	{
-		name => 'MapSurfer.NET/Hybrid',
-		url => 'http://www.openstreetmap.ru/#layer=BY&zoom=ZOOM&lat=LAT&lon=LON',
-		image => 'mapsurfer_hybrid.png',
-		descr => 'Полупрозрачный слой с подписями для использования поверх спутниковых снимков и карт',
-		authors => 'Maxim Rylov and Vitaly Chezganov',
-		coverage => 'Вся планета',
-	},
+#	{
+#		name => 'MapSurfer.NET/Hybrid',
+#		url => 'http://www.openstreetmap.ru/#layer=BY&zoom=ZOOM&lat=LAT&lon=LON',
+#		image => 'mapsurfer_hybrid.png',
+#		descr => 'Полупрозрачный слой с подписями для использования поверх спутниковых снимков и карт',
+#		authors => 'Maxim Rylov and Vitaly Chezganov',
+#		coverage => 'Вся планета',
+#	},
 	{
 		name => 'OpenStreetMap.by',
 		url => 'http://openstreetmap.by/?lat=LAT&lon=LON&zoom=ZOOM',
