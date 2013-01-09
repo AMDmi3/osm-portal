@@ -54,6 +54,15 @@ my @objects = (
 		authors => 'Maxim Rylov and Vitaly Chezganov',
 		coverage => 'Вся планета',
 	},
+	{
+		name => 'Чепецк.net',
+		url => 'http://чепецк.net/?lat=LAT&lon=LON&zoom=ZOOM',
+		image => 'chepetsk.png',
+		descr => 'Рендер с подробным туристическим стилем.',
+		author => '<a href="http://www.openstreetmap.org/user/Max%20Vasilev">Max Vasilev</a>',
+		refresh => 'Несколько дней',
+		coverage => 'Россия',
+	},
 #	{
 #		name => 'MapSurfer.NET/Topographic',
 #		url => 'http://www.mapsurfer.net/?layers=0BT&zoom=ZOOM&lat=LAT&lon=LON',
