@@ -229,14 +229,14 @@ my @objects = (
 		author => '<a href="http://www.openstreetmap.org/user/Kom%D1%8Fpa">Komяpa</a>',
 		coverage => 'Вся планета',
 	},
-	{
-		name => 'Duplicate Nodes',
-		url => 'http://matt.dev.openstreetmap.org/dupe_nodes/?zoom=ZOOM&lat=LAT&lon=LON',
-		image => 'dupenodes.png',
-		descr => 'Простой инструмент, показывающий дублированные точки.',
-		refresh => 'Практически в реальном времени',
-		coverage => 'Вся планета',
-	},
+#	{
+#		name => 'Duplicate Nodes',
+#		url => 'http://matt.dev.openstreetmap.org/dupe_nodes/?zoom=ZOOM&lat=LAT&lon=LON',
+#		image => 'dupenodes.png',
+#		descr => 'Простой инструмент, показывающий дублированные точки.',
+#		refresh => 'Практически в реальном времени',
+#		coverage => 'Вся планета',
+#	},
 	{
 		name => 'YAV/Водные объекты',
 		url => 'http://yav.gis-lab.info/rsa/map?zoom=ZOOM&lat=LAT&lon=LON',
