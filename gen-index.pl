@@ -319,14 +319,6 @@ my @objects = (
 		image => 'navdebug.png',
 	},
 	{
-		name => 'OSM Heat Map',
-		url => 'http://yosmhm.neis-one.org/',
-		image => 'heatmap.png',
-		descr => '"Тепловая карта" правок пользователя',
-		coverage => 'Вся планета',
-		author => 'Pascal Neis',
-	},
-	{
 		name => 'lowzoom',
 		url => 'http://lowzoom.osm.rambler.ru/',
 		image => 'lowzoom.png',
@@ -352,6 +344,30 @@ my @objects = (
 #		coverage => 'Европа',
 #	},
 
+	'Информация по участникам OSM',
+	{
+		name => 'OSM Heat Map',
+		url => 'http://yosmhm.neis-one.org/',
+		image => 'heatmap.png',
+		descr => '"Тепловая карта" правок пользователя',
+		coverage => 'Вся планета',
+		author => 'Pascal Neis',
+	},
+	{
+		name => 'OoOC',
+		url => 'http://resultmaps.neis-one.org/oooc',
+		image => 'oooc.png',
+		descr => 'Карта, отображающая примерное положение и количество правок участников OSM',
+		coverage => 'Вся планета',
+		author => 'Pascal Neis',
+	},
+	{
+		name => 'OSM Live',
+		url => 'http://datenkueche.com/osmlive/',
+		image => 'osmlive.png',
+		descr => 'Мониторинг правок по всей планете в реальном времени',
+	},
+
 	'Сравнение карт',
 	{
 		name => 'Geofabrik Tools/Map Compare',
@@ -373,13 +389,6 @@ my @objects = (
 #		authors => '<a href="http://45f.ru">45f.ru</a>',
 #	},
 
-	'Разное',
-	{
-		name => 'OSM Live',
-		url => 'http://datenkueche.com/osmlive/',
-		image => 'osmlive.png',
-		descr => 'Мониторинг правок по всей планете в реальном времени',
-	},
 	# TODO: добавить, как минимум: latlon, openorientingmap
 	#
 	# TODO: добавить все текстовые ресурсы (водный реестр, валидатор адресов от Лёши и т.д.)
