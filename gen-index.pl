@@ -337,11 +337,11 @@ my @objects = (
 		image => 'hillshading.png',
 		descr => 'Карта с наложением рельефа.',
 	},
-	{
-		name => 'Nav Debug',
-		url => 'http://cartography.sandbox.cloudmade.com/navdebug/?zoom=ZOOM&lat=LAT&lng=LON',
-		image => 'navdebug.png',
-	},
+#	{
+#		name => 'Nav Debug',
+#		url => 'http://cartography.sandbox.cloudmade.com/navdebug/?zoom=ZOOM&lat=LAT&lng=LON',
+#		image => 'navdebug.png',
+#	},
 	{
 		name => 'lowzoom',
 		url => 'http://lowzoom.osm.rambler.ru/',
