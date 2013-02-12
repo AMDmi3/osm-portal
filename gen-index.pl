@@ -199,7 +199,7 @@ my @objects = (
 	'Инструменты контроля качества',
 	{
 		name => 'OpenStreetBugs',
-		url => 'http://openstreetbugs.schokokeks.org/?zoom=ZOOM&lat=LAT&lon=LON',
+		url => 'http://osmbugs.org/?lat=LAT&lon=LON&zoom=ZOOM',
 		image => 'openstreetbugs.png',
 		descr => 'Простой в использовании сервис, где любой желающий может оставить сообщение о ошибке или неточности на карте, а любой пользователь OpenStreetMap может помочь исправить эти ошибки.',
 		coverage => 'Вся планета',
