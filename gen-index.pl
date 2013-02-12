@@ -289,11 +289,11 @@ my @objects = (
 		coverage => 'Вся планета',
 		authors => '<a href="http://www.itoworld.com/">ITO</a>',
 	},
-	{
-		name => 'Restriction Analyzer',
-		url => 'http://osm.virtuelle-loipe.de/restrictions/?zoom=ZOOM&lat=LAT&lon=LON',
-		image => 'restrictions.png',
-	},
+#	{
+#		name => 'Restriction Analyzer',
+#		url => 'http://osm.virtuelle-loipe.de/restrictions/?zoom=ZOOM&lat=LAT&lon=LON',
+#		image => 'restrictions.png',
+#	},
 #	{
 #		name => 'Toolserver/lighting',
 #		url => 'http://toolserver.org/~osm/styles/?zoom=ZOOM&lat=LAT&lon=LON&layers=B000F0TF0000F0FF00',
