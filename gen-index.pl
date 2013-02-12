@@ -231,6 +231,14 @@ my @objects = (
 		authors => '<a href="http://www.geofabrik.de/">Geofabrik GmbH</a>',
 	},
 	{
+		name => 'Turn Restrictions',
+		url => 'http://map.comlu.com/?zoom=ZOOM&lat=LAT&lon=LON',
+		image => 'turn_restrictions.png',
+		descr => 'Инструмент для визуализации и выявления ошибок в ограничениях поворотов.',
+		author => '<a href="http://www.openstreetmap.org/user/Zartbitter">Zartbitter</a>',
+		coverage => 'Вся планета',
+	},
+	{
 		name => 'LatLon.org/Lonely',
 		url => 'http://latlon.org/v/lonely?zoom=ZOOM&lat=LAT&lon=LON&layers=BT',
 		image => 'latlon_lonely.png',
