@@ -44,7 +44,7 @@ my @objects = (
 		coverage => 'Вся планета',
 	},
 	{
-		name => 'Transort Map',
+		name => 'Transport Map',
 		url => 'http://www.openstreetmap.org/?lat=LAT&lon=LON&zoom=ZOOM&layers=T',
 		image => 'transport_map.png',
 		descr => 'Слой с маршрутами общественного транспорта.',
