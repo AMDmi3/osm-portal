@@ -17,8 +17,9 @@ div.block {
 	background		: #e0e0e0;
 	float			: left;
 	margin			: 5px;
-	border-radius	: 10px;
-	-moz-border-radius	: 10px;
+	border-radius	: 20px;
+
+	box-shadow      : inset 1px 1px 0px 0px #ffffff, 3px 3px 5px 2px #909090;
 }
 
 div.block h2 {
@@ -33,26 +34,32 @@ div.block img {
 	width			: 400px;
 	height			: 300px;
 
-	border-top		: 1px solid white;
-	border-left		: 1px solid white;
+	border-top		: 1px solid #ffffff;
+	border-left		: 1px solid #ffffff;
 
-	border-right	: 1px solid black;
-	border-bottom	: 1px solid black;
+	border-right	: 1px solid #808080;
+	border-bottom	: 1px solid #808080;
+
+	border-radius   : 10px;
+
+	box-shadow      : 1px 1px 2px 0px #909090;
 }
 
 div.block div.descr {
 	width			: 390px;
 
-	border-top		: 1px solid white;
-	border-left		: 1px solid white;
+	border-top		: 1px solid #ffffff;
+	border-left		: 1px solid #ffffff;
 
-	border-right	: 1px solid black;
-	border-bottom	: 1px solid black;
+	border-right	: 1px solid #808080;
+	border-bottom	: 1px solid #808080;
 
 	color			: black;
 	background		: #e0e0e0;
 	opacity			: 0.85;
 	margin			: 5px 0px 0px 5px;
+
+	border-radius   : 5px;
 
 	padding			: 0px;
 
