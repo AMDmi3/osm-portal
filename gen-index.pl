@@ -427,13 +427,11 @@ my $objects = [
 	# TODO: добавить альтернативные проекты и карты (нужно?)
 ];
 
-print "<html>\n";
-print "	<head>\n";
-print "		<title>OSM::Portal</title>\n";
-print "		<meta http-equiv=\"Content-type\" value=\"text/html; charset=utf-8\">\n";
-print "		<link rel=\"stylesheet\" media=\"screen\" href=\"osm-portal.css\">\n";
-print "	</head>\n\n";
-print "	<body>\n";
+print "<html><head><title>OSM::Portal: всё это - OpenStreetMap</title>";
+print "<meta http-equiv=\"Content-type\" value=\"text/html; charset=utf-8\">";
+print "<link rel=\"stylesheet\" media=\"screen\" href=\"osm-portal.css\">";
+print "</head>";
+print "<body>";
 
 foreach my $group (@$objects) {
 	print "<h1>$group->{caption}</h1>";
@@ -442,7 +440,7 @@ foreach my $group (@$objects) {
 		my $has_data = 0;
 		my $url = $item->{url};
 		$url =~ s/LAT/$lat/; $url =~ s/LON/$lon/; $url =~ s/ZOOM/$zoom/;
-		print "	<div class=\"block\"><a href=\"$url\"><h2>$item->{name}</h2></a>\n";
+		print "<div class=\"block\"><a href=\"$url\"><h2>$item->{name}</h2></a>";
 
 		foreach my $field (keys %fields) {
 			if (defined $item->{$field}) {
@@ -452,24 +450,24 @@ foreach my $group (@$objects) {
 		}
 
 		if ($has_data || defined $item->{descr}) {
-			print "		<div class=\"descr\">";
+			print "<div class=\"descr\">";
 			if (defined $item->{descr}) {
-				print "			<p>$item->{descr}</p>\n";
+				print "<p>$item->{descr}</p>\n";
 			}
 
 			if ($has_data) {
-				print "			<ul\n>";
+				print "<ul>";
 				foreach my $field (keys %fields) {
 					next unless defined $item->{$field};
 
-					print "				<li><b>$fields{$field}:</b> $item->{$field}</li>\n";
+					print "<li><b>$fields{$field}:</b> $item->{$field}</li>";
 				}
-				print "			</ul>\n";
+				print "</ul>";
 			}
-			print "		</div>\n";
+			print "</div>";
 		}
-		print "		<a href=\"$url\"><img src=\"$item->{image}\"></a>\n";
-		print "	</div>\n";
+		print "<a href=\"$url\"><img src=\"$item->{image}\"></a>";
+		print "</div>";
 	}
 }
 
