@@ -433,10 +433,23 @@ print "<link rel=\"stylesheet\" media=\"screen\" href=\"osm-portal.css\">";
 print "</head>";
 print "<body>";
 
-foreach my $group (@$objects) {
-	print "<h1>$group->{caption}</h1>";
+print "<div id=\"switcher\">";
 
-	foreach my $item (@{$group->{items}}) {
+my $num = 0;
+foreach my $page (@$objects) {
+	print "<input type=\"radio\" name=\"selector\" id=\"radio$num\"";
+	print " checked=\"checked\"" if ($num == 0);
+	print "/><label for=\"radio$num\">$page->{caption}</label>";
+	$num++;
+}
+
+print "</div>";
+
+$num = 0;
+foreach my $page (@$objects) {
+	print "<div class=\"page\"><h1>$page->{caption}</h1>";
+
+	foreach my $item (@{$page->{items}}) {
 		my $has_data = 0;
 		my $url = $item->{url};
 		$url =~ s/LAT/$lat/; $url =~ s/LON/$lon/; $url =~ s/ZOOM/$zoom/;
@@ -469,8 +482,11 @@ foreach my $group (@$objects) {
 		print "<a href=\"$url\"><img src=\"$item->{image}\"></a>";
 		print "</div>";
 	}
+
+	print "</div>";
 }
 
+print "<script src=\"osm-portal.js\" type=\"text/javascript\"></script>";
 print "</body></html>";
 
 close(STDOUT);
