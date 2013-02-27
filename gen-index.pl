@@ -74,8 +74,8 @@ my $objects = [
 				image => 'chepetsk.png',
 				descr => 'Рендер с подробным туристическим стилем.',
 				author => '<a href="http://www.openstreetmap.org/user/Max%20Vasilev">Max Vasilev</a>',
-				refresh => 'Несколько дней',
-				coverage => 'Россия',
+				refresh => 'Ежедневно',
+				coverage => 'Страны СНГ',
 			},
 #			{
 #				name => 'MapSurfer.NET/Topographic',
