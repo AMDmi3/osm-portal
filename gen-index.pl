@@ -264,14 +264,14 @@ my $objects = [
 				author => '<a href="http://www.openstreetmap.org/user/Zartbitter">Zartbitter</a>',
 				coverage => 'Вся планета',
 			},
-			{
-				name => 'LatLon.org/Lonely',
-				url => 'http://latlon.org/v/lonely?zoom=ZOOM&lat=LAT&lon=LON&layers=BT',
-				image => 'latlon_lonely.png',
-				descr => 'Рендер населенных пунктов, к которым не отмечено подъездных дорог.',
-				author => '<a href="http://www.openstreetmap.org/user/Kom%D1%8Fpa">Komяpa</a>',
-				coverage => 'Вся планета',
-			},
+#			{
+#				name => 'LatLon.org/Lonely',
+#				url => 'http://latlon.org/v/lonely?zoom=ZOOM&lat=LAT&lon=LON&layers=BT',
+#				image => 'latlon_lonely.png',
+#				descr => 'Рендер населенных пунктов, к которым не отмечено подъездных дорог.',
+#				author => '<a href="http://www.openstreetmap.org/user/Kom%D1%8Fpa">Komяpa</a>',
+#				coverage => 'Вся планета',
+#			},
 #			{
 #				name => 'Duplicate Nodes',
 #				url => 'http://matt.dev.openstreetmap.org/dupe_nodes/?zoom=ZOOM&lat=LAT&lon=LON',
