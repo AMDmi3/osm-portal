@@ -30,7 +30,7 @@ div#switcher label {
 	border-right	: 1px solid #808080;
 	border-bottom	: 1px solid #808080;
 
-	box-shadow		: 3px 3px 5px 2px #909090;
+	box-shadow		: 2px 2px 3px 0px #909090;
 }
 
 div#switcher input:checked + label {
