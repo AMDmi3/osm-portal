@@ -381,7 +381,7 @@ my $objects = [
 			},
 			{
 				name => 'OoOC',
-				url => 'http://resultmaps.neis-one.org/oooc',
+				url => 'http://resultmaps.neis-one.org/oooc?zoom=ZOOM&lat=LAT&lon=LON',
 				image => 'oooc.png',
 				descr => 'Карта, отображающая примерное положение и количество правок участников OSM',
 				coverage => 'Вся планета',
